@@ -1,0 +1,7 @@
+x-env: &default-env
+  - .env
+
+services:
+  app:
+    image: node:18-alpine
+    env_file: *default-env
