@@ -1,0 +1,9 @@
+{
+  "name": "ant-vit-otus",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "scripts": {
+    "start": "node lesson.js"
+  }
+}
