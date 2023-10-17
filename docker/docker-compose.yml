@@ -9,3 +9,5 @@ services:
     volumes:
       - .././:/home/node/app
     command: "npm start"
+    ports:
+      - 4000:3000
