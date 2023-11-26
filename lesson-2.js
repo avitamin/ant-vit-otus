@@ -31,7 +31,6 @@ app.command('tree <startPath>')
         const depth = options.depth ?? 0;
         let directoriesCount = 0;
         let filesCount = 0;
-        let promises = [];
         let fsTree = {name: '', items: []}
         const traverse = async (file, obj) => {
             const currentPath = `${file.path}/${file.name}`;
